@@ -1,0 +1,304 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ESTILOS GENERALES */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ESTILOS DEL HEADER*/
+
+.logo {
+    display: none;
+}
+
+
+.container-padre-nav {
+    height: 60px;
+    background-color: rgba(0, 0, 0, .9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.list-content-nav {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+
+
+
+
+/* ESTILOS MAIN */
+
+.container-padre-main {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-main {
+    height: 400px;
+}
+
+
+
+
+/* ESTILOS CONTENIDO SECUNDARIO */
+
+
+
+.container-padre-section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.div-content {
+    background-image: url(../images/messi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: rgb(231, 209, 167);
+    margin: 2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+.a-div:hover {
+    background-color: #000;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+.p-div {
+    width: 60%;
+    color: #ffffff;
+}
+
+
+.h1-prendas {
+    color: #ffffff;
+}
+
+
+
+
+/* ESTILOS DEL FOOTER */
+
+
+
+ .a-footer {
+    color: #000;
+    font-size: 1.3rem;
+ }
+
+
+ .footer-content {
+    background-color: #ebe8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+ .footer-content p {
+    font-weight: bold;
+    margin-top: .5rem;
+    text-align: center;
+ }
+
+ .redes {
+    display: flex;
+    gap: 1rem;
+ }
+
+
+ .redes i:hover {
+    color: #818181;
+
+    
+ }
+
+
+
+
+
+ /* MEDIA QUERY PARA TABLETS */
+
+
+
+
+
+
+  /* MEDIA QUERY PARA ESCRITORIO */
+
+@media screen and (min-width: 992px) {
+
+    .container-padre-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ESTILOS CONTACTO */
+
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.h1-contact {
+    text-align: center;
+}
+
+
+.logo-contact {
+    height: 300px;
+    color: #000;
+}
+
+
+.form-style {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form-style p {
+    text-align: center;
+}
+
+
+.button {
+    background-color: #818181;
+    color: #ffffff;
+    padding: .5rem;
+}
+
+.button:hover {
+    background: #ffffff;
+    color: #818181;
+}
+
+
+
+@media screen and (min-width: 992px){
+
+    .form-main {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+
+    .h1-contact {
+        text-align: center;
+        margin-top: 1.7rem;
+    }
+
+    .logo-contact {
+        place-self: center;
+    }
+}
+
+
+
+
+
+
+
+/* ESTILOS SOBRE NOSOTROS */
+
+.main-sobre-nos {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    gap: 3rem;
+}
+
+
+.text-sobre-nos {
+    width: 75%;
+    font-size: 18px;
+
+}
+
+
+
+
+
+/* ESTILOS PRODUCTOS */
+
