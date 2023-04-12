@@ -191,9 +191,26 @@ a {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .form-main {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+
+    .h1-contact {
+        text-align: center;
+        margin-top: 1.7rem;
+    }
+
+    .logo-contact {
+        place-self: center;
+    }
+
 
 }
-
 
 
 
@@ -258,37 +275,6 @@ a {
 
 
 
-
-
-
-
-@media screen and (min-width: 992px){
-
-    .form-main {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-content: center;
-        align-items: center;
-        gap: 4rem;
-    }
-
-
-    .h1-contact {
-        text-align: center;
-        margin-top: 1.7rem;
-    }
-
-    .logo-contact {
-        place-self: center;
-    }
-}
-
-
-
-
-
-
-
 /* ESTILOS SOBRE NOSOTROS */
 
 .main-sobre-nos {
@@ -309,7 +295,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin: 4.5rem;
     padding: 4rem;
     border-radius: 1.4rem;
     -webkit-border-radius: 1.4rem;
