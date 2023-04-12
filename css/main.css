@@ -62,7 +62,7 @@ a {
 
 
 .img-main {
-    height: 400px;
+    height: 350px;
 }
 
 
@@ -164,36 +164,15 @@ a {
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ESTILOS CONTACTO */
 
 
 .form-main {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+
 }
 
 .h1-contact {
@@ -254,9 +233,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
 }
-
 
 .div-sobre {
     color: #000;
@@ -265,8 +243,8 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 4.5rem;
-    padding: 4rem;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 1.4rem;
     -webkit-border-radius: 1.4rem;
     -moz-border-radius: 1.4rem;
@@ -274,9 +252,11 @@ a {
     -o-border-radius: 1.4rem;
 }
 
+
+
+
 .text-sobre-nos {
-    width: 75%;
-    font-size: 18px;
+    width: 100%;
 
 }
 
@@ -372,10 +352,16 @@ a {
 
   @media screen and (min-width: 992px) {
 
+
+    /* MAIN INDEX */
+
     .container-padre-section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
+
+    /* CONTACTO */
 
     .form-main {
         display: grid;
@@ -393,6 +379,26 @@ a {
 
     .logo-contact {
         place-self: center;
+    }
+
+
+    /* SOBRE NOSOTROS */
+
+    .main-sobre-nos {
+
+    }
+
+
+    .div-sobre {
+        padding: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+
+    .text-sobre-nos {
+        width: 80%;
+        font-size: 18px;
     }
 }
 
