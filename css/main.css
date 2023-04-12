@@ -190,33 +190,31 @@ a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
-
-
 }
 
 @media screen and (min-width: 992px) {
+    .form-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
 
 
-.form-main {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+    .h1-contact {
+        text-align: center;
+        margin-top: 1.7rem;
+    }
+
+    .logo-contact {
+        place-self: center;
+    }
 }
 
 
-.h1-contact {
-    text-align: center;
-    margin-top: 1.7rem;
-}
 
-.logo-contact {
-    place-self: center;
-}
 
-}
 
 
 
