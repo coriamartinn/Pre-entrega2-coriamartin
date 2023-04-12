@@ -166,6 +166,40 @@ a {
 
 
 
+/* estilos de productos */
+
+.main-productos {
+    display: grid;
+    justify-content: space-around;
+    place-items: center;
+    gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+.producto {
+    background-image: url(../images/Morral.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 250px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
 
  /* MEDIA QUERY PARA TABLETS */
 
