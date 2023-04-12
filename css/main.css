@@ -175,42 +175,9 @@ a {
 
 
 
- /* MEDIA QUERY PARA TABLETS */
 
 
 
-
-
-
-  /* MEDIA QUERY PARA ESCRITORIO */
-
-@media screen and (min-width: 992px) {
-
-    .container-padre-section {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .form-main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        gap: 4rem;
-    }
-
-
-    .h1-contact {
-        text-align: center;
-        margin-top: 1.7rem;
-    }
-
-    .logo-contact {
-        place-self: center;
-    }
-}
 
 
 
@@ -226,7 +193,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     height: 100vh;
 }
 
@@ -238,6 +204,7 @@ a {
 .logo-contact {
     height: 300px;
     color: #000;
+    place-self: center;
 }
 
 
@@ -272,6 +239,9 @@ a {
     background: #ffffff;
     color: #818181;
 }
+
+
+
 
 
 
@@ -383,3 +353,47 @@ a {
 .a-compra:hover {
     color: #818181;
 }
+
+
+
+
+
+
+
+
+ /* MEDIA QUERY PARA TABLETS */
+
+
+
+
+
+
+  /* MEDIA QUERY PARA ESCRITORIO */
+
+  @media screen and (min-width: 992px) {
+
+    .container-padre-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .form-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+
+    .h1-contact {
+        text-align: center;
+        margin-top: 1.7rem;
+    }
+
+    .logo-contact {
+        place-self: center;
+    }
+}
+
+
