@@ -166,70 +166,7 @@ a {
 
 
 
-/* estilos de productos */
 
-.main-productos {
-    display: grid;
-    justify-content: space-around;
-    place-items: center;
-    gap: 5rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    padding: 2rem;
-}
-
-
-.producto {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 350px;
-    width: 300px;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-
-.producto-div {
-    background-color: #000;
-    padding: 2rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-
-
-
-.title-product-card {
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.6rem;
-    margin: .3rem;
-}
-
-.a-compra {
-    color: #000;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: .5rem;
-    padding: .5rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
 
 
 
@@ -311,12 +248,17 @@ a {
     background-color: #818181;
     color: #ffffff;
     padding: .5rem;
+    border: none;
 }
 
 .button:hover {
     background: #ffffff;
     color: #818181;
 }
+
+
+
+
 
 
 
@@ -356,10 +298,25 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
     gap: 3rem;
 }
 
+
+.div-sobre {
+    color: #000;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    padding: 4rem;
+    border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
+}
 
 .text-sobre-nos {
     width: 75%;
@@ -373,3 +330,70 @@ a {
 
 /* ESTILOS PRODUCTOS */
 
+
+.main-productos {
+    display: grid;
+    justify-content: space-around;
+    place-items: center;
+    gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
+.producto {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 300px;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+.producto-div {
+    background-color: #000;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+
+.title-product-card {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: .3rem;
+}
+
+.a-compra {
+    color: #000;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: .5rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.a-compra:hover {
+    color: #818181;
+}
