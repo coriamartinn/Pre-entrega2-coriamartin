@@ -294,7 +294,7 @@ a {
 
 /* MEDIA QUERY PARA mobile */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:700px) {
   .main-sobre-nos {
     height: min-content;
   }
