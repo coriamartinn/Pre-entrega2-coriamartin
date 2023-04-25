@@ -1,0 +1,30 @@
+/* ESTILOS HEADER */
+
+.tipografia {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: none;
+}
+
+.container-padre-nav {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  .list-content-nav {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}

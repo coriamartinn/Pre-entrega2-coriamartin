@@ -1,0 +1,28 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
+body {
+  background-color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+// IMPORTS
+@import "html/header";
+@import "html/main";
+@import "html/footer";
+@import "html/generales";
+@import "utilities/vars";

@@ -2,36 +2,28 @@
 * {
   margin: 0;
   padding: 0;
-}
+  box-sizing: border-box; }
 
 /* ESTILOS GENERALES */
-
 body {
   background-color: #ffffff;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 a {
   font-size: 18px;
   text-decoration: none;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
-/* ESTILOS DEL HEADER*/
-
+/* ESTILOS HEADER */
 .tipografia {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .logo {
-  display: none;
-}
+  display: none; }
 
 .container-padre-nav {
   height: 60px;
@@ -39,17 +31,17 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-}
-
-.list-content-nav {
-  list-style: none;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-}
+  position: fixed; }
+  .container-padre-nav .list-content-nav {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center; }
 
 /* ESTILOS MAIN */
+.img-main {
+  height: 300px;
+  width: 300px; }
 
 .container-padre-main {
   height: 100vh;
@@ -59,42 +51,30 @@ a {
   background-image: url(../images/main.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-}
-
-.img-main {
-  height: 300px;
-  width: 300px;
-}
-
-/* ESTILOS CONTENIDO SECUNDARIO */
+  background-position: center; }
 
 .container-padre-section {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-}
-
-.div-content {
-  background-image: url(../images/messi.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 300px;
-  background-color: rgb(231, 209, 167);
-  margin: 2rem;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
+  align-items: center; }
+  .container-padre-section .div-content {
+    background-image: url(../images/messi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    margin: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem; }
 
 .a-div:hover {
   background-color: #000;
@@ -104,65 +84,50 @@ a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
+  -o-border-radius: 5px; }
 
 .p-div {
   width: 60%;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .h2-prendas {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 /* ESTILOS DEL FOOTER */
-
 .a-footer {
   color: #000;
-  font-size: 1.3rem;
-}
+  font-size: 1.3rem; }
 
 .footer-content {
   background-color: #ebe8e8;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.footer-content p {
-  font-weight: bold;
-  margin-top: 0.5rem;
-  text-align: center;
-}
+  align-items: center; }
+  .footer-content p {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-align: center; }
 
 .redes {
   display: flex;
-  gap: 1rem;
-}
-
-.redes i:hover {
-  color: #818181;
-}
+  gap: 1rem; }
+  .redes i:hover {
+    color: #818181; }
 
 /* ESTILOS CONTACTO */
-
 .form-main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
 .h1-contact {
-  text-align: center;
-}
+  text-align: center; }
 
 .logo-contact {
   height: 300px;
   color: #000;
-  place-self: center;
-}
+  place-self: center; }
 
 .form-style {
   background-color: #000000;
@@ -176,27 +141,22 @@ a {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
+  -o-border-radius: 10px; }
 
 .form-style p {
-  text-align: center;
-}
+  text-align: center; }
 
 .button {
   background-color: #818181;
   color: #ffffff;
   padding: 0.5rem;
-  border: none;
-}
+  border: none; }
 
 .button:hover {
   background: #ffffff;
-  color: #818181;
-}
+  color: #818181; }
 
 /* ESTILOS SOBRE NOSOTROS */
-
 .main-sobre-nos {
   background-color: #000;
   height: 100vh;
@@ -204,8 +164,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-}
+  gap: 2rem; }
 
 .div-sobre {
   height: 100vh;
@@ -221,15 +180,12 @@ a {
   -webkit-border-radius: 1.4rem;
   -moz-border-radius: 1.4rem;
   -ms-border-radius: 1.4rem;
-  -o-border-radius: 1.4rem;
-}
+  -o-border-radius: 1.4rem; }
 
 .text-sobre-nos {
-  width: 100%;
-}
+  width: 100%; }
 
 /* ESTILOS PRODUCTOS */
-
 .main-productos {
   display: grid;
   justify-content: space-around;
@@ -237,8 +193,7 @@ a {
   gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
   margin: 2rem;
-  padding: 2rem;
-}
+  padding: 2rem; }
 
 .producto {
   background-position: center;
@@ -250,27 +205,24 @@ a {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
+  -o-border-radius: 1rem; }
 
 .producto-div {
   background-color: #000;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
+  -o-border-radius: 1rem; }
 
 .title-product-card {
   color: #ffffff;
   text-align: center;
   font-size: 1.6rem;
-  margin: 0.3rem;
-}
+  margin: 0.3rem; }
 
 .a-compra {
   color: #000;
@@ -285,74 +237,46 @@ a {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
+  -o-border-radius: 1rem; }
 
 .a-compra:hover {
-  color: #818181;
-}
+  color: #818181; }
 
 /* MEDIA QUERY PARA mobile */
-
 @media screen and (min-width: 320px) and (max-width: 700px) {
   .container-padre-main {
-    height: max-content;
-  }
-
+    height: max-content; }
   .main-sobre-nos {
-    height: min-content;
-  }
-
+    height: min-content; }
   .footer-content {
-    padding: 0.5rem;
-  }
-
+    padding: 0.5rem; }
   .form-style {
-    margin: 0;
-  }
-}
+    margin: 0; } }
 
 /* MEDIA QUERY PARA TABLETS */
-
 /* MEDIA QUERY PARA ESCRITORIO */
-
 @media screen and (min-width: 992px) {
   /* MAIN INDEX */
-
   .container-padre-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
+    grid-template-columns: repeat(3, 1fr); }
   /* CONTACTO */
-
   .form-main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-  }
-
+    gap: 4rem; }
   .h1-contact {
     text-align: center;
-    margin-top: 1.7rem;
-  }
-
+    margin-top: 1.7rem; }
   .logo-contact {
-    place-self: center;
-  }
-
+    place-self: center; }
   /* SOBRE NOSOTROS */
-
   .div-sobre {
     padding: 2rem;
     margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
+    margin-right: 3rem; }
   .text-sobre-nos {
     width: 80%;
-    font-size: 18px;
-  }
-}
+    font-size: 18px; } }
