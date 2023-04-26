@@ -44,7 +44,6 @@ a {
   width: 300px; }
 
 .container-padre-main {
-  height: 100vh;
   width: 100%;
   display: grid;
   place-items: center;
@@ -257,6 +256,8 @@ a {
 /* MEDIA QUERY PARA ESCRITORIO */
 @media screen and (min-width: 992px) {
   /* MAIN INDEX */
+  .container-padre-main {
+    height: 100vh; }
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
