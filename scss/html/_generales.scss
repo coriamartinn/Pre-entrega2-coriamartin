@@ -172,6 +172,10 @@
 @media screen and (min-width: 992px) {
   /* MAIN INDEX */
 
+  .container-padre-main {
+    height: 100vh;
+  }
+
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
