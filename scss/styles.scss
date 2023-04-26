@@ -21,8 +21,9 @@ a {
 }
 
 // IMPORTS
+@import "../scss/components/mixin";
+@import "../scss/components/vars";
 @import "html/header";
 @import "html/main";
 @import "html/footer";
 @import "html/generales";
-@import "utilities/vars";

@@ -1,0 +1,18 @@
+// parametros image
+
+@mixin image-main {
+  height: 300px;
+  width: 300px;
+}
+
+@mixin container-main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-image: url(../../images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, .2);
+  background-blend-mode: soft-light;
+}

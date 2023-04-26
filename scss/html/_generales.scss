@@ -165,8 +165,6 @@
   }
 }
 
-/* MEDIA QUERY PARA TABLETS */
-
 /* MEDIA QUERY PARA ESCRITORIO */
 
 @media screen and (min-width: 992px) {
@@ -179,6 +177,10 @@
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    .div-content {
+      width: 500px;
+    }
   }
 
   /* CONTACTO */

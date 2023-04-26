@@ -1,18 +1,11 @@
 /* ESTILOS MAIN */
 
 .img-main {
-  height: 300px;
-  width: 300px;
+  @include image-main;
 }
 
 .container-padre-main {
-  width: 100%;
-  display: grid;
-  place-items: center;
-  background-image: url(../images/main.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include container-main;
 }
 
 .container-padre-section {
@@ -23,7 +16,6 @@
   align-items: center;
 
   .div-content {
-    background-image: url(../images/messi.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,14 +24,44 @@
     align-items: center;
     justify-content: space-around;
     height: 300px;
+    width: 270px;
     margin: 1rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+
   }
 }
+.image-uno {
+  background: url(../../images/Morral.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .2);
+  background-blend-mode: soft-light;
+  
+}
+.image-dos {
+  background: url(../../images/remera-dos.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .2);
+  background-blend-mode: soft-light;
+}
+.image-tres {
+  background: url(../../images/camperas-nike-beige.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .2);
+  background-blend-mode: soft-light;
+}
+
+
+
 
 .a-div:hover {
   background-color: #000;
