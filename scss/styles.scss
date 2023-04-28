@@ -7,11 +7,11 @@
 }
 
 // IMPORTS
-@import "../scss/components/mixin";
-@import "../scss/components/vars";
-@import "../scss/components/extend";
-@import "html/header";
-@import "html/main";
-@import "html/footer";
-@import "html/generales";
-@import "html/productos";
+@import "components/vars";
+@import "components/mixin";
+@import "components/extend";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/productos";
+@import "components/generales";
