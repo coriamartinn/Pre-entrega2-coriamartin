@@ -210,7 +210,7 @@ a {
 
 /* ESTILOS CONTACTO */
 .form-main {
-  height: 100vh;
+  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center; }
