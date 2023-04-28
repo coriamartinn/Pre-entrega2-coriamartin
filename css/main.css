@@ -107,7 +107,7 @@
   background-blend-mode: soft-light; }
 
 .image-cuatro {
-  background: url(../images/pantalon.jpg);
+  background: url(../images/pantalon.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ a {
     margin: 0; } }
 
 /*mq tablet*/
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 701px) and (max-width: 992px) {
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
@@ -304,8 +304,6 @@ a {
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
-    .container-padre-section .div-content {
-      width: 500px; }
     .container-padre-section .image-cuatro {
       display: none; }
   /* CONTACTO */

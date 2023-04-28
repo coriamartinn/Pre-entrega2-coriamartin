@@ -116,7 +116,7 @@ a {
 }
 /*mq tablet*/
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 701px) and (max-width: 992px) {
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -144,9 +144,6 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    .div-content {
-      width: 500px;
-    }
 
     .image-cuatro {
       display: none;
