@@ -1,8 +1,12 @@
 // parametros image
 
-@mixin image-main {
-  height: 300px;
-  width: 300px;
+@mixin h1-main {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: .5rem;
+  box-shadow: 1px 1px 5px;
+  
+
 }
 
 @mixin container-main {
@@ -13,6 +17,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: soft-light;
 }

@@ -1,7 +1,7 @@
 /* ESTILOS MAIN */
 
-.img-main {
-  @include image-main;
+.h1-main {
+  @include h1-main;
 }
 
 .container-padre-main {
@@ -31,7 +31,6 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-
   }
 }
 .image-uno {
@@ -39,16 +38,15 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: soft-light;
-  
 }
 .image-dos {
   background: url(../images/remera-dos.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: soft-light;
 }
 .image-tres {
@@ -56,7 +54,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: soft-light;
 }
 .image-cuatro {
@@ -64,12 +62,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: soft-light;
 }
-
-
-
 
 .a-div:hover {
   background-color: #000;
