@@ -13,6 +13,8 @@
       crossorigin="anonymous"
     />
 
+    <!-- animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- mi css -->
 
     <link rel="stylesheet" href="../css/main.css" />
@@ -92,16 +94,16 @@
 
     <!-- VISTA MAIN DE LA PAGINA-->
     <main class="main-productos">
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/campera-blanca.jpg"
           alt="campera blanca nike"
         />
-        <h1 class="title-product-card">Campera Nike Blanca</h1>
+        <h1 class="title-product-card">Campera Blanca</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/campera-nike.jpg"
@@ -110,7 +112,7 @@
         <h1 class="title-product-card">Campera Nike Negra</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/camperas-nike-beige.jpg"
@@ -119,7 +121,7 @@
         <h1 class="title-product-card">Campera Nike Beige</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/camperon-adidas.jpeg"
@@ -128,7 +130,7 @@
         <h1 class="title-product-card">Camperon Adidas</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/camperon-nike.jpeg"
@@ -137,7 +139,7 @@
         <h1 class="title-product-card">Camperon nike</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/camperon-northface.jpeg"
@@ -146,7 +148,7 @@
         <h1 class="title-product-card">Camperon NortFace</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/Remera.jpeg"
@@ -155,7 +157,7 @@
         <h1 class="title-product-card">Remera Nike Blanca</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/remera-dos.jpeg"
@@ -164,7 +166,7 @@
         <h1 class="title-product-card">Remera Nike Negra</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/Morral.JPG"
@@ -173,7 +175,7 @@
         <h1 class="title-product-card">Morral</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img
           class="producto"
           src="../images/posible-main.jpg"
@@ -182,12 +184,12 @@
         <h1 class="title-product-card">Remera negra</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img class="producto" src="../images/111.jpg" alt="short nike" />
         <h1 class="title-product-card">short nike</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
       </div>
-      <div class="producto-div">
+      <div class="producto-div" data-aos="flip-right">
         <img class="producto" src="../images/buzo.jpeg" alt="buzo nike" />
         <h1 class="title-product-card">buzo nike</h1>
         <a class="a-compra" href="">Agregar al carrito</a>
@@ -214,6 +216,11 @@
       </div>
     </footer>
 
+    <!-- script animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- link bt script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
