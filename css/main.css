@@ -250,7 +250,9 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
   .div-content {
-    width: 350px; } }
+    width: 350px; }
+  .main-productos {
+    grid-template-columns: repeat(2, 1fr); } }
 
 /* MEDIA QUERY PARA ESCRITORIO */
 @media screen and (min-width: 992px) {
@@ -283,15 +285,18 @@ a {
     margin-right: 3rem; }
   .text-sobre-nos {
     width: 80%;
-    font-size: 18px; } }
+    font-size: 18px; }
+  /* Pruductos */
+  .main-productos {
+    grid-template-columns: repeat(3, 1fr); } }
 
 /* ESTILOS PRODUCTOS */
 .main-productos {
   display: grid;
+  grid-template-columns: repeat(1, 1fr);
   justify-content: space-around;
   place-items: center;
   gap: 5rem;
-  grid-template-columns: repeat(3, 1fr);
   margin: 2rem;
   padding: 2rem; }
 
@@ -299,8 +304,8 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
-  width: 300px;
+  height: 300px;
+  width: 250px;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;

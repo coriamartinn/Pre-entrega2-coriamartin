@@ -125,6 +125,10 @@ a {
   .div-content {
     width: 350px;
   }
+
+  .main-productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* MEDIA QUERY PARA ESCRITORIO */
@@ -179,5 +183,11 @@ a {
   .text-sobre-nos {
     width: 80%;
     font-size: 18px;
+  }
+
+
+  /* Pruductos */
+  .main-productos {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
