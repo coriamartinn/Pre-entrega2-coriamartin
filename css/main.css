@@ -198,6 +198,12 @@
 .a-compra:hover {
   color: #818181; }
 
+.precio {
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 1px; }
+
 /* ESTILOS GENERALES */
 body {
   background-color: #ffffff;
