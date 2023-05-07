@@ -296,7 +296,15 @@ a {
   /*COMO COMPRAR*/
   .main-como-comprar {
     grid-template-columns: repeat(2, 1fr);
+
+    .div-como {
+      padding: 2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
+
+  
 
   .text-como-comprar {
     width: 80%;
