@@ -6,9 +6,14 @@
 }
 .footer-content {
   background-color: $color-footer;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
+  justify-content: center;
+  
+
+  .other-title {
+    text-align: center;
+  }
 
   p {
     font-weight: bold;
@@ -19,6 +24,8 @@
 
 .redes {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 
   i:hover {

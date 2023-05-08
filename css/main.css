@@ -143,9 +143,11 @@
 
 .footer-content {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+  .footer-content .other-title {
+    text-align: center; }
   .footer-content p {
     font-weight: bold;
     margin-top: 0.5rem;
@@ -153,6 +155,8 @@
 
 .redes {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem; }
   .redes i:hover {
     color: #818181; }
@@ -442,4 +446,11 @@ a {
     max-width: 25rem; }
   /* Pruductos */
   .main-productos {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  /*FOOTER */
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr); }
+    .footer-content .redes {
+      gap: 3rem; }
+    .footer-content .copy {
+      margin: 0 1rem; } }
