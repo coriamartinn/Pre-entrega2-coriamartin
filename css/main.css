@@ -405,8 +405,6 @@ a {
   .container-padre-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); }
-    .container-padre-section .image-cuatro {
-      display: none; }
   /* CONTACTO */
   .form-main {
     height: 100vh;
