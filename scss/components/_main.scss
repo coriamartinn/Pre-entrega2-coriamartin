@@ -34,16 +34,36 @@
   }
 }
 .image-uno {
-  @include image-d;
+  background: url(../../images/Morral.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
 }
 .image-dos {
-  @include image-d;
+  background: url(../images/Remera.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
 }
 .image-tres {
-  @include image-d;
+  background: url(../images/camperas-nike-beige.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
 }
 .image-cuatro {
-  @include image-d;
+  background: url(../images/pantalon.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: soft-light;
 }
 
 .a-div:hover {

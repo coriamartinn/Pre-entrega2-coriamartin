@@ -87,7 +87,7 @@
     -o-border-radius: 1rem; }
 
 .image-uno {
-  background: url(../images/Morral.JPG);
+  background: url(../../images/Morral.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@
   background-blend-mode: soft-light; }
 
 .image-dos {
-  background: url(../images/remera-dos.jpeg);
+  background: url(../images/Remera.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +404,8 @@ a {
     height: 100vh; }
   .container-padre-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; }
   /* CONTACTO */
   .form-main {
     height: 100vh;
@@ -452,3 +453,9 @@ a {
       gap: 3rem; }
     .footer-content .copy {
       margin: 0 1rem; } }
+
+@media screen and (min-width: 1230px) {
+  .container-padre-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0; } }

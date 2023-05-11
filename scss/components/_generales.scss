@@ -50,9 +50,7 @@ a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  
 }
-
 
 .form-style p {
   text-align: center;
@@ -245,11 +243,8 @@ a {
 
   .container-padre-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    .image-cuatro {
-      display: none;
-    }
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 
   /* CONTACTO */
@@ -304,8 +299,6 @@ a {
     }
   }
 
-  
-
   .text-como-comprar {
     width: 80%;
     font-size: 18px;
@@ -315,12 +308,10 @@ a {
     max-width: 25rem;
   }
 
-
   /* Pruductos */
   .main-productos {
     grid-template-columns: repeat(3, 1fr);
   }
-
 
   /*FOOTER */
 
@@ -334,5 +325,13 @@ a {
     .copy {
       margin: 0 1rem;
     }
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  .container-padre-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
   }
 }
