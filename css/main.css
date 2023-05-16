@@ -87,7 +87,7 @@
     -o-border-radius: 1rem; }
 
 .image-uno {
-  background: url(../../images/Morral.JPG);
+  background: url(../images/Morral.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -456,6 +456,5 @@ a {
 
 @media screen and (min-width: 1230px) {
   .container-padre-section {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0; } }
