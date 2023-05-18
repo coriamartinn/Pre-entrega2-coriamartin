@@ -6,6 +6,7 @@
 
 .container-padre-main {
   @include container-main;
+  opacity: .92;
 }
 
 .container-padre-section {
@@ -66,8 +67,8 @@
   background-blend-mode: soft-light;
 }
 
-.a-div:hover {
-  background-color: #ffffff;
+.a-div {
+  background-color: #cecece;
   color: #000000;
   padding: 0 1rem;
   border-radius: 5px;
@@ -76,6 +77,11 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+}
+
+.a-div:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .p-div {

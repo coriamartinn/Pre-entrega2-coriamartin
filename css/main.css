@@ -27,8 +27,8 @@
   font-size: 14px;
   font-weight: bold; }
 
-.logo {
-  display: none; }
+.logo-l {
+  margin: 0 .4rem; }
 
 .container-padre-nav {
   height: 60px;
@@ -61,7 +61,8 @@
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: soft-light; }
+  background-blend-mode: soft-light;
+  opacity: .92; }
 
 .container-padre-section {
   display: flex;
@@ -118,8 +119,8 @@
   background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: soft-light; }
 
-.a-div:hover {
-  background-color: #ffffff;
+.a-div {
+  background-color: #cecece;
   color: #000000;
   padding: 0 1rem;
   border-radius: 5px;
@@ -128,6 +129,10 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9); }
+
+.a-div:hover {
+  background-color: #ffffff;
+  color: #000000; }
 
 .p-div {
   width: 60%;
@@ -139,7 +144,7 @@
 /* ESTILOS DEL FOOTER */
 .a-footer {
   color: #000;
-  font-size: 1.3rem; }
+  font-size: 1.5rem; }
 
 .footer-content {
   background-color: #ffffff;
@@ -147,7 +152,8 @@
   align-items: center;
   justify-content: center; }
   .footer-content .other-title {
-    text-align: center; }
+    text-align: center;
+    margin: .5rem 0 0 0; }
   .footer-content p {
     font-weight: bold;
     margin-top: 0.5rem;
@@ -163,13 +169,19 @@
 
 /* ESTILOS PRODUCTOS */
 .main-productos {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: space-around;
-  place-items: center;
-  gap: 3rem;
-  margin: 2rem;
-  padding: 2rem; }
+  background: linear-gradient(#e7e4e4, white, white, #e7e4e4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .main-productos .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    margin: 1rem; }
 
 .producto {
   background-position: center;
@@ -209,6 +221,13 @@
   text-align: center;
   margin: 10px 1px; }
 
+.h1-productos {
+  text-align: center;
+  margin: 2rem 0; }
+
+.img-producto {
+  justify-items: center; }
+
 /* ESTILOS GENERALES */
 body {
   background-color: #ffffff;
@@ -221,6 +240,7 @@ a {
 
 /* ESTILOS CONTACTO */
 .form-main {
+  background: linear-gradient(#e7e4e4, white, white, #e7e4e4);
   height: max-content;
   display: flex;
   flex-direction: column;
@@ -269,6 +289,7 @@ a {
 
 /* ESTILOS SOBRE NOSOTROS */
 .main-sobre-nos {
+  background: linear-gradient(#e7e4e4, white, white, #e7e4e4);
   height: 100vh;
   background-color: #ffffff;
   display: grid;
@@ -283,8 +304,9 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
-  padding: 1rem;
+  justify-items: center;
+  margin: 1rem 3rem;
+  padding: 1rem 3rem;
   border-radius: 1.4rem;
   -webkit-border-radius: 1.4rem;
   -moz-border-radius: 1.4rem;
@@ -331,8 +353,8 @@ a {
     -o-transform: translateY(0px); } }
 
 /* COMO COMPRAR*/
-/* ESTILOS SOBRE NOSOTROS */
 .main-como-comprar {
+  background: linear-gradient(#e7e4e4, white, white, #e7e4e4);
   height: 100vh;
   background-color: #ffffff;
   display: grid;
@@ -390,7 +412,7 @@ a {
     grid-template-columns: repeat(2, 1fr); }
   .div-content {
     width: 350px; }
-  .main-productos {
+  .main-productos .cards {
     grid-template-columns: repeat(2, 1fr); }
   .logo-sobre-nos {
     max-width: 25rem; }
@@ -444,7 +466,7 @@ a {
   .logo-como-comprar {
     max-width: 25rem; }
   /* Pruductos */
-  .main-productos {
+  .main-productos .cards {
     grid-template-columns: repeat(3, 1fr); }
   /*FOOTER */
   .footer-content {
@@ -454,7 +476,10 @@ a {
     .footer-content .copy {
       margin: 0 1rem; } }
 
-@media screen and (min-width: 1230px) {
+@media screen and (min-width: 1300px) {
   .container-padre-section {
     grid-template-columns: repeat(4, 1fr);
-    gap: 0; } }
+    gap: 0; }
+  /*Productos*/
+  .main-productos .cards {
+    grid-template-columns: repeat(4, 1fr); } }
