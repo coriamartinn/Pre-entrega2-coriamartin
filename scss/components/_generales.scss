@@ -15,12 +15,12 @@ a {
 /* ESTILOS CONTACTO */
 
 .form-main {
+  min-height: 100vh;
   background: linear-gradient(
     #e7e4e4,
     rgb(255, 255, 255),
     rgb(255, 255, 255),
     #e7e4e4);
-  height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,16 +45,11 @@ a {
 .form-style {
   background-color: #000000;
   color: #ffffff;
-  padding: 3rem;
-  margin: 2rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  padding: 3rem;
   
 }
 
@@ -250,6 +245,10 @@ a {
 
   .logo-como-comprar {
     max-width: 25rem;
+  }
+
+  .form-style {
+    padding: 5rem;
   }
 }
 
